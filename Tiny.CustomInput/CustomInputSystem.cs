@@ -89,5 +89,12 @@ namespace GilCat.CustomInput {
     /// <returns></returns>
     public NativeArray<KeyCode> GetKeysUp(Allocator allocator) =>
       new NativeArray<KeyCode>(m_inputState.keysJustUp, allocator);
+
+    /// <summary>
+    /// Returns the mouse button that is currently held down.
+    /// </summary>
+    /// <returns></returns>
+    public int GetMouseButton() =>
+      m_inputState.mousePressed;
   }
 }
