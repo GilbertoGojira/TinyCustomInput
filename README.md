@@ -1,4 +1,4 @@
-# Tiny Asset Loader
+# Tiny Custom Input
 
 This package intends to extend Tiny Input so that methods available in Unity legacy are mimic here alongside with extra functionality that will increase performance
 
