@@ -39,6 +39,14 @@ namespace GilCat.CustomInput {
       m_inputState.keysPressed;
 
     /// <summary>
+    /// Get a copy array of the keys that are held down
+    /// </summary>
+    /// <param name="allocator"></param>
+    /// <returns></returns>
+    public NativeArray<KeyCode> GetKeys(Allocator allocator) =>
+      new NativeArray<KeyCode>(m_inputState.keysPressed, allocator);
+
+    /// <summary>
     /// Is any key or mouse button currently held down on this frame? 
     /// </summary>
     /// <returns></returns>
@@ -53,6 +61,14 @@ namespace GilCat.CustomInput {
       m_inputState.keysJustDown;
 
     /// <summary>
+    /// Get a copy of the keys that are held down on this frame
+    /// </summary>
+    /// <param name="allocator"></param>
+    /// <returns></returns>
+    public NativeArray<KeyCode> GetKeysDown(Allocator allocator) =>
+      new NativeArray<KeyCode>(m_inputState.keysJustDown, allocator);
+
+    /// <summary>
     /// Is any key or mouse button released on this frame? 
     /// </summary>
     /// <returns></returns>
@@ -65,5 +81,13 @@ namespace GilCat.CustomInput {
     /// <returns></returns>
     public NativeList<KeyCode> GetKeysUp() =>
       m_inputState.keysJustUp;
+
+    /// <summary>
+    /// Get a copy of the keys that were released in this frame
+    /// </summary>
+    /// <param name="allocator"></param>
+    /// <returns></returns>
+    public NativeArray<KeyCode> GetKeysUp(Allocator allocator) =>
+      new NativeArray<KeyCode>(m_inputState.keysJustUp, allocator);
   }
 }
