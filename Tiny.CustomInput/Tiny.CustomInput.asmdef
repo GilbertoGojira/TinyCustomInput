@@ -1,0 +1,28 @@
+{
+    "name": "Tiny.CustomInput",
+    "references": [
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:e0cd26848372d4e5c891c569017e11f1",
+        "GUID:968008d463443624ba4326838f3e38d2",
+        "GUID:8ed1e3067dad7be4c941c7e33cae09a0",
+        "GUID:4a43ea96b4a1c284c8c77cacd330094e",
+        "GUID:4e41b0bcb5414bc46b0a5954cee2938f",
+        "GUID:daffc3f0c5c5a834fa2ccb03561d4354",
+        "GUID:aac9618244ddf6c4786381275edaa15c",
+        "GUID:6f59246d595f6db449e008fe09444ea7",
+        "GUID:97c8041bd4744df4da04c4bd0b6c4abe",
+        "GUID:8d16ba61ae5950a4db5a2e298e50add0",
+        "GUID:0d449730e334bcf4d8b0006a20a0631c",
+        "GUID:156bbe8d0622f674881a1dc039879fd8",
+        "GUID:7f6b3966e1aa23b44a07b94b3cd72f8b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

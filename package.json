@@ -1,0 +1,17 @@
+{
+  "name": "com.gilcat.custominput",
+  "displayName": "Tiny Extended Input",
+  "version": "0.0.1-preview.1",
+  "unity": "2020.1",
+  "unityRelease": "17f1",
+  "description": "Extended input for Unity Tiny",
+  "keywords": [
+    "entities",
+    "unity",
+    "input"
+  ],
+  "dependencies": {
+    "com.unity.dots.runtime": "0.32.0-preview.54",
+    "com.unity.tiny": "0.32.0-preview.54"
+  }
+}

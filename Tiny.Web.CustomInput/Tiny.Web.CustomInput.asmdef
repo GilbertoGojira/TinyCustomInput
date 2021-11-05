@@ -1,0 +1,22 @@
+{
+    "name": "Tiny.Web.CustomInput",
+    "references": [
+        "GUID:734d92eba21c94caba915361bd5ac177",
+        "GUID:e0cd26848372d4e5c891c569017e11f1",
+        "GUID:8ed1e3067dad7be4c941c7e33cae09a0",
+        "GUID:7f6b3966e1aa23b44a07b94b3cd72f8b"
+    ],
+    "includePlatforms": [
+        "WebGL"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_DOTSRUNTIME"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
